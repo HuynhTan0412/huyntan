@@ -1,0 +1,253 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+    margin: 0;
+    padding: 0;
+    height: 900px;
+    overflow: hidden;
+}
+
+
+
+.background
+{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    padding-top: 0;
+}
+.header
+{
+    width: 100%;
+    height: 136px;
+    position: fixed;
+}
+.logo
+{
+    width: 40%;
+    height: 140px;
+    background-color: #FEFEFE;
+    float: left;
+}
+.menu
+{
+    width: 60%;
+    height: 140px;
+    background-color: #FFFFFF;
+    float: right;
+}
+.menu ul
+{
+    list-style: none;
+}
+.menu ul li
+{
+    float: left;
+    padding: 49px 50px 49px 50px;
+}
+.menu ul li a
+{
+    text-decoration: none;
+    color: #272424;
+}
+.menu ul li:hover
+{
+    border-bottom: 5px solid #1D1C1C;
+}
+.menu ul li ul
+{
+    position: absolute;
+    top: 120px;
+    right: 0;
+    visibility: hidden;
+}
+.menu ul li ul li
+{
+    background-color: #FFFDFD;
+    width: 100px;
+}
+.menu ul li:hover ul
+{
+    visibility: visible;
+}
+.slide
+{
+    width: 100%;
+    height: 591px;
+    background-color:red;
+    padding-top: 90px;
+}
+.slide_a
+{
+    width: 32%;
+    height: 900px;
+    float: left;
+    background-color:#d1e8e2;
+}
+button
+{
+    width: 250px;
+    height: 50px;
+    border: 5px solid #2c2a2b;
+    cursor: pointer;
+    background-color: #d1e8e2;
+}
+
+.trangchu
+{
+    width: 100%;
+    height: 900px;
+    background-color:aqua;
+}
+
+.gioithieu
+{
+    width: 100%;
+    height: 900px;
+}
+.gioithieu_a
+{
+    width: 100%;
+    height: 900px;
+}
+.gioithieu_a1
+{
+    width: 50%;
+    height: 900px;
+    background:url("../images/hinh1.jpg");
+    background-size: 820px 900px;
+    float: left;
+}
+.gioithieu_a1 a
+{
+    text-decoration: none;
+    color: black;
+}
+.gioithieu_a1:hover a
+{
+    color: burlywood;
+}
+.gioithieu_a2
+{
+    width: 50%;
+    height: 900px;
+    background:url("../images/hinh2.jpg");
+    background-size: 820px 900px;
+    float: left;
+}
+.gioithieu_a2 a
+{
+    text-decoration: none;
+    color: black;
+}
+.gioithieu_a2:hover a
+{
+    color: burlywood;
+}
+.sanpham
+{
+    width: 100%;
+    height: 350px;
+    background-color:white;
+}
+.sanpham_a
+{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.sanpham_a1
+{
+    width: 8%;
+    height: 200px;
+    float: left;
+    margin: 0 1% 0 1%;
+}
+.sanpham_a1 a
+{
+   text-decoration: none;
+    color: black;
+}
+.sanpham_a1:hover a
+{
+    color: burlywood;
+}
+.sanpham_text
+{
+    width: 100%;
+    height: 100px;
+}
+.sanpham_text1
+{
+    width: 100%;
+    height: 50px;
+}
+.sanpham_text1 a
+{
+  text-decoration: none;
+  color: black;
+}
+.sanpham_text1:hover a
+{
+  color: burlywood;
+}
+.lienhe
+{
+    width: 100%;
+    height: 500px;
+    background-color:chartreuse;
+    box-sizing: border-box;
+}
+.lienhe1
+{
+    width: 40%;
+    height: 500px;
+    background-color:black;
+    float: left;
+    box-sizing: border-box;
+    padding: 50px;
+    background-color: burlywood;
+}
+.lienhe2
+{
+    width: 60%;
+    height: 500px;
+    background-color:burlywood;
+    float: left;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.gianhap
+{
+    width: 100%;
+    height: 900px;
+    background: url("../images/thiet-ke-nha-hang-vinh-linh-4.jpg");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: 1800px;
+}
+.gianhap input
+{
+    width: 200px;
+    height: 30px;
+}
+.gianhap select
+{
+    width: 200px;
+    height: 30px;
+}
+table 
+{
+    border: none;
+    border-collapse: collapse;
+    color: white;
+}
+
+td 
+{
+    border: none;
+}
